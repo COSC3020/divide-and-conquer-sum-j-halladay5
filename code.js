@@ -21,3 +21,6 @@ function dcSum(a){
         return first+second+third;
     }
 }
+
+//https://www.geeksforgeeks.org/program-find-sum-elements-given-array/ : Gave me a starting point to go off of. This is for two arrays, not three, so I was able to implement this using dividing into 3 sums.
+//TA: Had a problem where some elements were included when they shouldn't have been, we ended up adding a base case if there was only two arrays, so that it wouldn't accidently split and include an element twice.
